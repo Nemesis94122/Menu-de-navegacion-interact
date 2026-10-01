@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú de Navegación Animado</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="logo">
+            <a href="#">Brand<span>.</span></a>
+        </div>
+        
+        <!-- Checkbox invisible para el menú móvil sin JS -->
+        <input type="checkbox" id="menu-toggle" class="menu-toggle">
+        <label for="menu-toggle" class="menu-icon" aria-label="Abrir menú de navegación">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </label>
+
+        <nav class="nav" aria-label="Navegación principal">
+            <ul class="menu-list">
+                <li class="menu-item"><a href="#inicio" class="menu-link">Inicio</a></li>
+                <li class="menu-item"><a href="#servicios" class="menu-link">Servicios</a></li>
+                <li class="menu-item"><a href="#proyectos" class="menu-link">Proyectos</a></li>
+                <li class="menu-item"><a href="#nosotros" class="menu-link">Nosotros</a></li>
+                <li class="menu-item"><a href="#contacto" class="menu-link">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="content">
+        <section id="inicio" class="section">
+            <h1>Inicio</h1>
+            <p>Sección de inicio del sitio web moderno.</p>
+        </section>
+        <section id="servicios" class="section">
+            <h1>Servicios</h1>
+            <p>Explora nuestras soluciones y características avanzadas.</p>
+        </section>
+        <section id="proyectos" class="section">
+            <h1>Proyectos</h1>
+            <p>Portafolio digital con transiciones CSS de alto impacto.</p>
+        </section>
+        <section id="nosotros" class="section">
+            <h1>Nosotros</h1>
+            <p>Diseño enfocado en la accesibilidad y la semántica web pura.</p>
+        </section>
+        <section id="contacto" class="section">
+            <h1>Contacto</h1>
+            <p>Contáctanos para llevar tus interfaces visuales al siguiente nivel.</p>
+        </section>
+    </main>
+
+</body>
+</html>
